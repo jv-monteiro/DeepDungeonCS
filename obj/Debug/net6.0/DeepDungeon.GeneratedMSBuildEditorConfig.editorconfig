@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DeepDungeon
+build_property.RootNamespace = DeepDungeon
+build_property.ProjectDir = D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/CarrinhoCompra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Produto/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/Components/SacolaResumo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2Fjb2xhUmVzdW1vXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/_CategoriasHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yaWFzSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/_ProdutoCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdXRvQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/_ProdutosEmDestaque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdXRvc0VtRGVzdGFxdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1tqaqd08pf

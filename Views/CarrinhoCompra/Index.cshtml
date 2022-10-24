@@ -1,0 +1,61 @@
+﻿@model DeepDungeon.ViewModels.CarrinhoCompraViewModel
+
+<div class="Container">
+    <div class="row">
+
+        <h2>Carrinho de compras:</h2>
+        <table class="table table-bordered table-striped">
+
+            <thead>
+                <tr>
+                    <th>Quantidade</th>
+                    <th>Produto</th>
+                    <th class="text-right">Preço:</th>
+                    <th class="text-right">Subtotal:</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model.CarrinhoCompra.CarrinhoItems)
+                {
+                    <tr>
+                        <td class="text-center">@item.Quantidade</td>
+                        <td class="text-center">@item.Produto.ProdutoName</td>
+                        <td class="text-center">@item.Produto.ProdutoPrice.ToString("c")</td>
+
+                        <td class="text-right">
+                            @((item.Quantidade * item.Produto.ProdutoPrice).ToString("c"))
+                        </td>
+
+                        <td class="text-center">
+                            <a asp-controller="CarrinhoCompra" asp-action="RemoveFromCart" asp-route-produtoId="@item.Produto.ProdutoId">
+                                <h4 style="color= red">X</h4>
+                            </a>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+
+            <tfoot>
+            <td colspan="3" class="text-right">Total:</td>
+            <td class="text-right">
+                    @Model.CarrinhoCompraTotal.ToString("c")
+            </td>
+            </tfoot>
+
+        </table>
+
+        <div class="text-right">
+            <div class="btn-group">
+                <a class="btn btn-success"> Encerrar Pedido </a>
+                @*<a class="btn btn-success" asp-controller="Pedido" asp-action="Checkout"> Encerrar Pedido </a>*@
+                <a class="btn btn-primary" asp-controller="Produto" asp-action="List"> Continuar Comprando </a>
+            </div>
+        </div>
+
+
+        <br />
+
+    </div>
+</div>

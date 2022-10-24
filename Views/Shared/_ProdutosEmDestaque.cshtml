@@ -1,0 +1,13 @@
+﻿@*@model DeepDungeon.ViewModels.ProdutoListViewModel
+
+<div class="container">
+    <div class="row">
+
+        @foreach (var produto in Model.Produtos)
+        {
+            <partial name="_ProdutoCard" for="@produto" />
+        }
+
+    </div>
+</div>
+*@

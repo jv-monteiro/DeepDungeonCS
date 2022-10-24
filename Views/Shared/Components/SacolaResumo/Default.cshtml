@@ -1,0 +1,10 @@
+﻿@model DeepDungeon.ViewModels.CarrinhoCompraViewModel
+
+@if(Model.CarrinhoCompra.CarrinhoItems.Count > 0){
+    <a asp-controller="CarrinhoCompra" asp-action="index">
+        <div class="d-flex align-items-center" style="color: white">
+            <img src="~/images/icons/Bag-icon.png" style="max-width:32px" />
+            <p>@Model.CarrinhoCompra.CarrinhoItems.Count</p>
+        </div>
+    </a>
+}

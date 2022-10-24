@@ -1,0 +1,19 @@
+﻿@model Produto
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+    <p><img src="@Model.ProdutoImage" class="img-responsive" style="max-width: 150px" /></p>
+
+    <a>@Model.ProdutoName</a>
+
+    <h3>Preço: @Model.ProdutoPrice.ToString("c")</h3>
+    <p>@Model.ProdutoDescription</p>
+
+    <div>
+        <p class="button">
+            <a class="btn btn-primary" id="cartButton" asp-controller="CarrinhoCompra" asp-action="AddToCart" asp-route-ProdutoId="@Model.ProdutoId">
+                Incluir no carrinho
+            </a>
+        </p>
+    </div>
+
+</div>

@@ -1,0 +1,19 @@
+﻿@model DeepDungeon.ViewModels.ProdutoListViewModel
+
+<div>
+    <h2> @Model.CategoriaAtual </h2>
+    <p>Atualizado em: @ViewData["Hora"]</p>
+</div>
+
+<div class="container ">
+    <div class="row">
+        @foreach (var produto in Model.Produtos)
+        {
+            <partial name="_ProdutoCard" for="@produto" />
+        }
+    </div>
+</div>
+
+<div>
+    <h3>Total de resultados: @ViewBag.TotalProdutos</h3>
+</div>
