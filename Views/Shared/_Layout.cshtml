@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="~/DeepDungeon.styles.css" asp-append-version="true" />
     
 </head>
-<body>
-    <header style="background-color: #07080a">
+<body style=" background-image: linear-gradient(to bottom, #030405,#171717)">
+    <header>
         <nav id="navBar" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  mb-3" >
             <div class="container-fluid" style="margin: 0px 10% 0px 10%; ">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> <img src="~/images/Logo-branco.png" class="img-responsive" style="max-width: 150px" />  </a>
@@ -25,13 +25,14 @@
                             <li class="nav-item">
                                 <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
+                            
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Produto" asp-action="List">Produtos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-controller="Produto" asp-action="List">Prdutos</a>
+                                <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
                             </li>
-                            <li>
+                            <li class="nav-item">
                                 @await Component.InvokeAsync("SacolaResumo")
                             </li>
                         </ul>

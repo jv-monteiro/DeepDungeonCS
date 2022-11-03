@@ -58,3 +58,4 @@ D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00
 D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\obj\Debug\net6.0\DeepDungeon.pdb
 D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\obj\Debug\net6.0\DeepDungeon.genruntimeconfig.cache
 D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\obj\Debug\net6.0\ref\DeepDungeon.dll
+D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

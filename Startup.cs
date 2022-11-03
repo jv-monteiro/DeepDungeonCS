@@ -2,6 +2,7 @@
 using DeepDungeon.Models;
 using DeepDungeon.Repositorios;
 using DeepDungeon.Repositorios.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -22,6 +23,12 @@ namespace DeepDungeon
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
                 );
+
+
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+
+
             services.AddTransient<IProdutoRepository, ProdutoRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
@@ -55,6 +62,9 @@ namespace DeepDungeon
             app.UseRouting();
 
             app.UseSession();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseAuthorization();
 

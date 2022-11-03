@@ -1,12 +1,12 @@
 ﻿@model DeepDungeon.ViewModels.CarrinhoCompraViewModel
 
-<div class="Container">
-    <div class="row">
+<div class="Container" style="color: #dbdbdb">
+    <div class="row" >
 
         <h2>Carrinho de compras:</h2>
         <table class="table table-bordered table-striped">
 
-            <thead>
+            <thead style="color: #dbdbdb">
                 <tr>
                     <th>Quantidade</th>
                     <th>Produto</th>
@@ -15,10 +15,10 @@
                 </tr>
             </thead>
 
-            <tbody>
+            <tbody >
                 @foreach (var item in Model.CarrinhoCompra.CarrinhoItems)
                 {
-                    <tr>
+                    <tr style="color: #dbdbdb">
                         <td class="text-center">@item.Quantidade</td>
                         <td class="text-center">@item.Produto.ProdutoName</td>
                         <td class="text-center">@item.Produto.ProdutoPrice.ToString("c")</td>
@@ -37,7 +37,7 @@
                 }
             </tbody>
 
-            <tfoot>
+            <tfoot style="color: #dbdbdb">
             <td colspan="3" class="text-right">Total:</td>
             <td class="text-right">
                     @Model.CarrinhoCompraTotal.ToString("c")

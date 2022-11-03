@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\PCnovo\Dev\Asp project\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00\DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/CarrinhoCompra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -29,6 +33,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Produto/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/Components/CategoriaMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmlhTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PCnovo/Dev/Asp project/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/DeepDungeonCS-7d0065967db305b3bfe96f6f3163aecd9b322a00/Views/Shared/Components/SacolaResumo/Default.cshtml]
