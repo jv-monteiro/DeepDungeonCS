@@ -12,7 +12,8 @@ Para executar o programa é necessário possuir o Visual Studio instalado e conf
 
 ### 1- Conexão com o banco de dados:
 
-        Em "Data Source" coloque o nome da sua maquina mostrado no SQLServer e o programa irá criar automaticamente o banco de dados e as tabelas.
+        Em "Data Source" coloque o nome da sua maquina mostrado no SQLServer e o programa 
+        irá criar automaticamente o banco de dados e as tabelas.
 ![](https://i.imgur.com/uTCfOhk.png)
 
 
@@ -32,7 +33,8 @@ Para executar o programa é necessário possuir o Visual Studio instalado e conf
 
 Cadastrar e remover produtos:
         
-        Infelizmente ainda é necessário utilizar o Migrations disponibilizado pelo Entity Framework para cadastrar e deletar produtos.Entretanto eles serão salvos no banco de dados normalmente.
+        Infelizmente ainda é necessário utilizar o Migrations disponibilizado pelo Entity Framework para cadastrar
+        e deletar produtos. Entretanto eles serão salvos no banco de dados normalmente.
 
 ### 1. Lista de produtos
 
