@@ -7,7 +7,7 @@ Nessa nova versão eu busquei aplicar conceitos de backend utilizando ASP.Net Co
 
 ## Instalação
 
-Para executar o programa é necessário possuir o Visual Studio instalado e configurar a string de conexão no arquivo "appsttings.json" 
+Para executar o programa é necessário possuir o Visual Studio/.NET SDK instalado e configurar a string de conexão no arquivo "appsttings.json" 
 
 
 ### 1- Conexão com o banco de dados:
